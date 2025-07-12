@@ -206,6 +206,9 @@ height: 100vh;
     background-color: yellow;
 }
 /* form section using another <section> tag */
+section{
+    margin-top: 137px;
+}
 .forms{
     display:flex;
     background-color: rgba(214, 221, 237, 0.479);
@@ -243,6 +246,35 @@ form input, textarea {
     width: 415px;
     margin-top: 10px;
  }
+ /* footer section */
+ 
+ /* body */
+ footer{
+    margin-top: 15px;
+ }
+ .logo{
+    max-width: 1640px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    padding:103px 0 ;
+    justify-content: center;
+ }
+ .title{
+    font-weight: bold;
+    font-size: 100px;
+    color:rgba(78, 71, 255, 1);
+    
+ }
+ .sub-title{
+    color: rgba(137, 135, 161, 1);
+    margin-top: -55px;
+ }
+.goal-container a{
+    margin-left: 45px;
+    color: rgba(137, 135, 161, 1);
+    text-decoration: none;
+}
+
 
 
     
